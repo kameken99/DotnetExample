@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  database:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Qwer1234#"
+    volumes:
+      - /Users/user/opt/mssql/data:/var/opt/mssql/data
+      - /Users/user/opt/mssql/log:/var/opt/mssql/log
+      - /Users/user/opt/mssql/secrets:/var/opt/mssql/secrets
+    ports:
+      - '1433:1433'
+    user: root
+
+
