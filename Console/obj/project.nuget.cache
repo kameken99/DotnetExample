@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pivzxIysDq7Z1PjRIF7S3iCfLuXpneLIvESwA0Y3fcctwLp2SC1ICJRsgNio/qVyCrUH3NdJHhtcDCRVfbVZNQ==",
+  "dgSpecHash": "l/habSrqoQqaMUQGG/WZd8kIV/x1EcgCz+oM2WuZBaaG4SrDWk7eoYAs08mipVS0tsO2pQSHgeN0bEM+IVLeQQ==",
   "success": true,
   "projectFilePath": "/Users/user/Desktop/repo/example/DotnetExample/Console/Console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
+    "/Users/user/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
