@@ -1,4 +1,3 @@
-using AutoFixture;
 using Moq;
 
 public static class EntryPoint
