@@ -2,7 +2,7 @@ using Moq;
 
 public static class EntryPoint
 {
-    public static void Test()
+    public static void TestMoq()
     {
 // Create a mock object and set up a method to return a value
         var mock = new Mock<IMyInterface>();

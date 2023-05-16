@@ -19,3 +19,6 @@
 /Users/user/Desktop/repo/example/DotnetExample/Console/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
 /Users/user/Desktop/repo/example/DotnetExample/Console/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
 /Users/user/Desktop/repo/example/DotnetExample/Console/obj/Debug/net7.0/Console.csproj.CopyComplete
+/Users/user/Desktop/repo/example/DotnetExample/Console/bin/Debug/net7.0/AutoFixture.dll
+/Users/user/Desktop/repo/example/DotnetExample/Console/bin/Debug/net7.0/AutoFixture.AutoMoq.dll
+/Users/user/Desktop/repo/example/DotnetExample/Console/bin/Debug/net7.0/Fare.dll
