@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Database.Migrations;
+namespace Database;
 
 public class MyDbContextFactory : IDesignTimeDbContextFactory<MyDbContext>
 {

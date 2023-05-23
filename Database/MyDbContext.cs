@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Database.Migrations;
+namespace Database;
 
 public class MyDbContext : DbContext
 {
