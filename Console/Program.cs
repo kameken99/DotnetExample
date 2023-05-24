@@ -3,3 +3,4 @@
 Console.WriteLine("Hello, World!");
 
 // EntryPoint.TestMoq();
+EntryPoint.TestAutoMapper();

@@ -1,3 +1,4 @@
+using AutoMapper;
 using Moq;
 
 public static class EntryPoint
@@ -17,5 +18,17 @@ public static class EntryPoint
         mock.Verify(x => x.MethodName(), Times.Once);
 
         Console.WriteLine(result);
+    }
+    
+    public static void TestAutoMapper()
+    {
+        var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+        var mapper = config.CreateMapper();
+        
+        var source = new SourceObject { Id = 1, Name = "Source" };
+        var destination = mapper.Map<DestinationObject>(source);
+        
+        Console.WriteLine(destination.Id);
+        Console.WriteLine(destination.Name);
     }
 }
